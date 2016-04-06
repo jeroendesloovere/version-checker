@@ -50,6 +50,57 @@ $versions = array(
             // Deprecated services
             array(
 
+            ),
+            // Deprecated file-extensions
+            array(
+                '.tpl'
+            )
+        ),
+        new Warnings(
+            // Deprecated constants
+            array(
+                
+            ),
+            // Deprecated namespaces
+            array(
+                
+            ),
+            // Deprecated methods
+            array(
+                
+            ),
+            // Deprecated services
+            array(
+                'database'
+            ),
+            // Deprecated file-extensions
+            array(
+                
+            )
+        )
+    )
+    new Version(
+        '3.10',
+        new Notices(
+            // Deprecated constants
+            array(
+                
+            ),
+            // Deprecated namespaces
+            array(
+
+            ),
+            // Deprecated methods
+            array(
+
+            ),
+            // Deprecated services
+            array(
+
+            ),
+            // Deprecated file-extensions
+            array(
+                
             )
         ),
         new Warnings(
@@ -68,9 +119,13 @@ $versions = array(
             // Deprecated services
             array(
                 'database'
+            ),
+            // Deprecated file-extensions
+            array(
+                '.tpl'
             )
         )
-    )
+    ),
 )
 ```
 
