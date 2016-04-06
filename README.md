@@ -1,8 +1,25 @@
 # VersionChecker
 
-> This VersionChecker library can check source code for Deprecations.
+> This VersionChecker can check source code for Deprecations.
 
-When using a specific version of Fork CMS, you want to use a module to fully supports your version. Thats why I'm creating this class, so it can check if the module supports everything.
+## Why you need this?
+
+Example: You are using Fork CMS version 3.9.6
+and want to know what Fork CMS Modules/Themes are compatible with that.
+
+... the story stops here...
+
+Modules/Themes are often not maintained anymore.
+So you don't know if things will work or not.
+
+## What this class will do?
+
+This VersionChecker **checks the Repository Source code** for **Deprecations**.
+
+## How must it work?
+
+1. You must define all of your versions and all deprecations that comes with them.
+2. Then we loop all module repositories (branches/releases) and get a result per check.
 
 The result could have a status =
 - OK = green
